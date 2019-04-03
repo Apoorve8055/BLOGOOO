@@ -6,7 +6,6 @@ app.use(express.static('pages'))
 
 app.set('view engine','ejs');
 
-
 app.use('/',index_router);
 
 app.listen(8080,function(){
