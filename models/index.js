@@ -5,8 +5,7 @@ exports.index_content = {
         "Home": "/home",
         "About": "/About",
         "Services": "/Services",
-        "Contact": "/Contact1",
-        "GOTO": 'www.google.com'
+        "Contact": "/Contact"
     },
     footer: {
         "footname": 'Copyright © All right Reserved'
