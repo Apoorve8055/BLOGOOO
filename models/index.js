@@ -1,13 +1,14 @@
 exports.index_content = {
-    "title": 'My Blog',
+    "title": 'BLOGOOO',
     header: {"Logo": 'BLOGOOO'},
     menu: {
         "Home": "/home",
         "About": "/About",
-        "Services": "/Services",
-        "Contact": "/Contact"
+        "Contact": "/Contact",
+        "Login": "/Login",
+        "Sign Up": '/SignUp'
     },
     footer: {
-        "footname": 'Copyright © All right Reserved'
+        "footname": 'Made By Apoorve Verma ©  '
     }
 };
