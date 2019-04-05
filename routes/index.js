@@ -8,7 +8,7 @@ router.get('/About',ctrl.about);
 router.get('/Login', ctrl.login);
 router.get('/Contact', ctrl.Contact);
 router.get('/SignUp', ctrl.signUp);
-router.get('/Post', ctrl.pages);
+router.get('/Post', ctrl.post);
 router.get('*',ctrl.index);
 
 module.exports = router;

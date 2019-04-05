@@ -1,0 +1,220 @@
+<%- include('../component/header'); -%>
+<style>
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    section {
+        width: 100%;
+        float: left;
+    }
+
+    .banner-section {
+        background-image: url("https://static.pexels.com/photos/373912/pexels-photo-373912.jpeg");
+        background-size: cover;
+        height: 380px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        background-position: 0;
+    }
+
+    .post-title-block {
+        padding: 100px 0;
+    }
+
+    .post-title-block h1 {
+        color: #fff;
+        font-size: 85px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    .post-title-block li {
+        font-size: 20px;
+        color: #fff;
+    }
+
+    /* CSS Test begin */
+    .comment-box {
+        margin-top: 30px !important;
+    }
+
+    /* CSS Test end */
+
+    .comment-box img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .comment-box .media-left {
+        padding-right: 10px;
+        width: 65px;
+    }
+
+    .comment-box .media-body p {
+        border: 1px solid #ddd;
+        padding: 10px;
+    }
+
+    .comment-box .media-body .media p {
+        margin-bottom: 0;
+    }
+
+    .comment-box .media-heading {
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        padding: 7px 10px;
+        position: relative;
+        margin-bottom: -1px;
+    }
+
+    .comment-box .media-heading:before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        background-color: #f5f5f5;
+        border: 1px solid #ddd;
+        border-width: 1px 0 0 1px;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        position: absolute;
+        top: 10px;
+        left: -6px;
+    }
+
+</style>
+
+<section class="banner-section">
+</section>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 post-title-block">
+
+            <h1 class="text-center">post Title goes here</h1>
+            <ul class="list-inline text-center">
+                <li>Author |</li>
+                <li>Category |</li>
+                <li>Date |</li>
+            </ul>
+        </div>
+    </div> <!-- /container -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <p class="lead">Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies
+                    vehicula.</p>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                    ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat
+                    porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor
+                    fringilla.</p>
+                <div class="well ">
+                    <large>This is image</large>
+                </div>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at
+                    eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
+                    nec elit.</p>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                </blockquote>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                    ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo luctus, nisi erat
+                    porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non metus auctor
+                    fringilla.</p>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at
+                    eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
+                    nec elit.</p>
+                <blockquote>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante. nascetur
+                        ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est non commodo
+                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec ullamcorper nulla non
+                        metus auctor fringilla.</p>
+
+                </blockquote>
+
+                <div class="image-block">
+                    <img src="https://static.pexels.com/photos/268455/pexels-photo-268455.jpeg" class="img-responsive"
+                         style="width:100%">
+                </div>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Donec id elit non mi porta gravida at
+                    eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem
+                    nec elit.</p>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="media comment-box">
+                    <div class="media-left">
+                        <a href="#">
+                            <img class="img-responsive user-photo"
+                                 src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">John Doe</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="img-responsive user-photo"
+                                         src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Jane Doe</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="img-responsive user-photo"
+                                         src="https://ssl.gstatic.com/accounts/ui/avatar_2x.png">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">John Doe</h4>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                    unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic
+                                    typesetting, remaining essentially unchanged. It was popularised in the 1960s with
+                                    the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                                    with desktop publishing software like Aldus PageMaker including versions of Lorem
+                                    Ipsum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="conatiner">
+            <div class="row">
+
+            </div>
+        </div>
+    </div>
+</div>
+<%- include('../component/footer'); -%>
