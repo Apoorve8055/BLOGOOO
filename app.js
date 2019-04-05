@@ -11,6 +11,7 @@ app.use('/About',index_router);
 app.use('/Contact', index_router);
 app.use('/Login', index_router);
 app.use('/SignUp', index_router);
+app.use('/Post', index_router);
 app.use('*',index_router);
 
 app.listen(8080,function(){

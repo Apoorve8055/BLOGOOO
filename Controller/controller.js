@@ -15,3 +15,6 @@ exports.Contact = function (req, res) {
 exports.signUp = function (req, res) {
     res.render('pages/SignUp', model.index_content);
 }
+exports.post = function (req, res) {
+    res.render('pages/post', model.index_content);
+}
